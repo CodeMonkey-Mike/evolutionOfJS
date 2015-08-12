@@ -21,7 +21,7 @@
                 alert("Please select an image to upload!"); // alert the user to upload an image
                 return false;  // then break out of this function
             }
-console.log(email);
+
             var regexp = new RegExp(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/); //Regular Expression constructor, typically not used until after es3
             if (regexp.test(email)) {  //a standard check for a valid email address, using RegExp.prototype.test()
                 return true
